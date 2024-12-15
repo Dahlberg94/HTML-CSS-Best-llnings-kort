@@ -117,6 +117,26 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 14px;
+    text-decoration: none;
+    border-style: 1px solid;
+}
+
+.pay button {
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    background-color: #4b5c74;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+    border-style: 1px solid;
+}
+
+.pay button:hover {
+    cursor: pointer;
 }
 
 .cancel {
