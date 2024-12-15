@@ -1,0 +1,163 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(projekt\(besta╠êllningskort\)/images/bg-l.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.container {
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.288);
+    overflow: hidden;
+    
+}
+.pic {
+    width: 100%;
+    height: 30%;
+    background-color: rebeccapurple;
+    border-radius: 25px 25px 0px 0px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 50%);
+}
+.top-cover { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 0px;
+}
+
+.info h1 {
+    font-size: 16px;
+    font-weight: 100;
+    
+}
+
+.info p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.plan {
+    width: 90%;
+    height: 12%;
+    background-color: #adb3bd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.plan-circkle{
+    background-color: #516b90;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    transition: transform 0.3s, backgroud-color 0.3s;
+}
+.plan-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.plan-text {
+    /* height: 10px; */
+    margin: -10px 0px;
+    font-size: 10px;
+}
+
+.p-h2 {
+    font-size: 10px;
+    font-weight: 500;
+}
+.plan-change p {
+    color: #516b90;
+}
+
+.plan:hover .plan-circkle {
+    transform: scale(1.6);
+    background-image: radial-gradient(Circle at center,#516b90 0%,#516b90 50%, #b3bdcc4d 50%, #e7d6d6cb 100%);
+}
+
+.pay {
+    height: 7%;
+    width: 90%;
+    border-radius: 7px;
+    background-color: #4b5c74;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.cancel {
+    color: #ADB3BD;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 376px) {
+
+    body {
+        background-image: url('projekt(besta╠êllningskort)/images/bg-s.png');
+        
+    }
+    .container {
+        height: 700px;
+    }
+    .info h1 {
+        font-size: 20px;
+        font-weight: 500;
+        
+    }
+    
+    .info p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .plan-text {
+        /* height: 10px; */
+        margin: -15px 0px;
+        font-size: 15px;
+    }
+    
+    .p-h2 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+}
+
+@media screen and (min-width: 377px) and (max-width: 1440px) {
+    body {
+        background-image: url('projekt(besta╠êllningskort)/images/bg-l.png');
+    }
+}
