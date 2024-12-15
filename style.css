@@ -10,7 +10,7 @@ body {
     position: relative;
     z-index: 1;
     font-family: 'Open Sans', sans-serif;
-    background-image: url(projekt\(besta╠êllningskort\)/images/bg-l.png);
+    background-image: url(orderkort/images/bg-l.png);
     background-size: cover;
     background-position: center;
 }
@@ -127,7 +127,7 @@ body {
 @media screen and (max-width: 376px) {
 
     body {
-        background-image: url('projekt(besta╠êllningskort)/images/bg-s.png');
+        background-image: url('orderkort/images/bg-s.png');
         
     }
     .container {
@@ -158,6 +158,6 @@ body {
 
 @media screen and (min-width: 377px) and (max-width: 1440px) {
     body {
-        background-image: url('projekt(besta╠êllningskort)/images/bg-l.png');
+        background-image: url('orderkort/images/bg-l.png');
     }
 }
