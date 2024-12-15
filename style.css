@@ -132,16 +132,48 @@ body {
     align-items: center;
     font-size: 14px;
     text-decoration: none;
-    border-style: 1px solid;
+    border-style:1px solid;
 }
+
+.portfolio-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+}
+
+.portfolio-link button {
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    background-color: #4b5c74;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+    border-style:1px solid;
+    text-decoration: none;
+}
+
+.portfolio-link button:hover {
+    cursor: pointer;
+}
+
 
 .pay button:hover {
     cursor: pointer;
+    
 }
 
 .cancel {
     color: #ADB3BD;
     margin-bottom: 20px;
+}
+
+.cancel:hover {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 376px) {
